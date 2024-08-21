@@ -7,9 +7,11 @@ const useFetchPosts = () => {
  useEffect(() => {
   const fetchPosts = async () => {
     setLoading(true);
+    https://dreamscapeai.onrender.com
+
 
     try {
-      const response = await fetch("http://localhost:8080/api/v1/posts", {
+      const response = await fetch("https://dreamscapeai.onrender.com/api/v1/posts", {
         method: "GET",
         headers: {
           'Content-Type': 'application/json'
