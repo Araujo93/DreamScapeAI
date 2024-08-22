@@ -1,7 +1,6 @@
 import express from 'express'
 import OpenAi from "openai"
 import * as dotenv from 'dotenv';
-import Post from "../mongodb/models/post.js";
 
 dotenv.config();
 
